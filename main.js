@@ -13,3 +13,39 @@ Consigli del giorno:
 2. proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo "a mano"
 */
 
+
+/* Mini task:
+    -Creare un ciclo
+    -Creare un if
+      - se il numero é divisibile sia per 3 sia per 5 allora "FizzBuzz" --> 100 % 3 && 100 % 5 --> True
+      - se il numero é divisibile per 3 allora "Fizz" -->  100 % 3 --> True
+      - se il numero é divisibile per 5 allora "Buzz" --> 100 % 5 --> True
+
+*/
+
+for ( let i=0; i<100; i++){
+
+    if(i % 3==0 && i % 5==0){
+
+        //se true
+
+        console.log(`Il tuo numero ${i} é divisibile per 3 e 5 quindi FizzBuzz`)
+
+    } else if(i % 3 == 0){
+
+        //se true
+
+        console.log(`Il tuo numero ${i} é divisibile per 3 quindi Fizz`)
+
+    } else if(i % 5==0){
+
+        //se true
+
+        console.log(`Il tuo numero ${i} é divisibile per 5 quindi Buzz`)
+
+    } else{
+        console.log(`Il tuo numero ${i} non é divisibile né per 3 né per 5`)
+    }
+
+}
+
