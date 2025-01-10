@@ -29,19 +29,19 @@ for ( let i=0; i<100; i++){
 
         //se true
 
-        console.log(`Il tuo numero ${i} é divisibile per 3 e 5 quindi FizzBuzz`)
+        console.log("FizzBuzz")
 
     } else if(i % 3 == 0){
 
         //se true
 
-        console.log(`Il tuo numero ${i} é divisibile per 3 quindi Fizz`)
+        console.log("Fizz")
 
     } else if(i % 5==0){
 
         //se true
 
-        console.log(`Il tuo numero ${i} é divisibile per 5 quindi Buzz`)
+        console.log("Buzz")
 
     } else{
         console.log(`Il tuo numero ${i} non é divisibile né per 3 né per 5`)
